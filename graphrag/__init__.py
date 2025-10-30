@@ -10,7 +10,7 @@ __email__ = "team@graphrag.com"
 
 from .core.engine import GraphRAGEngine
 from .config.settings import GraphRAGConfig
-from .core.exceptions import GraphRAGException
+from .utils.exceptions import GraphRAGException
 
 __all__ = [
     "GraphRAGEngine",
